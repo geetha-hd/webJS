@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+body,
+html { 
+    width:20%;
+    height:0%;
+    font-family: Sen, sans-serif; 
+    background: url(Banner_mage.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+  }
+  body,html 
+  {
+      width: 339px;
+        height: 492px;
+        background-color: #FFFFFF;
+        box-shadow:-4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+
+  body{
+    width:5%;
+    height:5%;
+    font-family: Sen, sans-serif; 
+    background: url(Aster_logo_white.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .form-group{
+    background-color: #FFFFFF;
+    box-shadow: 926px 26px 175px, 243px 0 rgba(85, 95, 126, 0.18);
+    width: 339px;
+    height: 492px;
+  }
+  background-color: #FFFFFF;
+  box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+  width: 339px;
+  height: 492px;
+  h1{ font-size: 3rem;
+    color:#ffffff;
+
+}
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+
+}
+    .btn-primary:hover{
+        background-color:#ee4b08;
+        border-color:#ee4b08;
+        border-width:4px;
+    }
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    font-family: Sen,sans-serif;
+    letter-spacing: 2px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background: #ffff;
+    
+}
+
+
+.container {    width: 339px;
+    height: 492px; 
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -4px 2px 13px 0   rgba(85, 95, 126, 0.18) 
+}
+body{
+    width:5%;
+    height:5%;
+    font-family: Sen, sans-serif; 
+    background: url(Aster_logo_white.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /*Form*/
+  form{ 
+      width: 90%;
+  }
+  
+  .form-group{
+      height: 65px;
+  }
+  label {
+      position: relative;
+      bottom: 3px;
+  }
+  input {
+    width: 100%;
+    height: 34px;
+    padding: 10px;  
+    border: 0.87px solid #D0D0D0;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}  
+ 
+input:valid {
+    border: 0.87px solid #D0D0D0;
+    width: 278px;
+    height: 42px;
+  }
+  button {
+      cursor: pointer;
+      color: white;
+      background: red;
+      border:none;
+      height: 50px;
+      width: 50%;
+      font-family: Sen, sans-serif;
+      font-size: 20px;
+      letter-spacing: 2px;
+      margin-top: 5px;
+}
+button:hover{
+      filter: brightness(200%);
+      background: rgb(22, 22, 22);
+ }
+button:focus {
+     outline: none;
+ }
+.message-container{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.adult-paediatric-b {
+    color: #FFFFFF;
+    font-family: Titillium;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 40px;
+    width: 622px;
+    text-align: left;
+  }
+  .haematology-oncolo {
+    color: #FFFFFF;
+    font-family: StagSans;
+    font-size: 25px;
+    letter-spacing: 3.59px;
+    line-height: 34px;
+    width: 599px;
+    text-align: left;
+  }
+  .aster-logo-white {
+    width: 239px;
+    height: 239px;
+  }
